@@ -1,1 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Code+Pro:200');
 
+body  {
+    background-image: url('https://static.pexels.com/photos/414171/pexels-photo-414171.jpeg');
+  background-size:cover;
+        -webkit-animation: slidein 100s;
+        animation: slidein 100s;
+
+        -webkit-animation-fill-mode: forwards;
+        animation-fill-mode: forwards;
+
+        -webkit-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
+
+        -webkit-animation-direction: alternate;
+        animation-direction: alternate;              
+}
+
+@-webkit-keyframes slidein {
+from {background-position: top; background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+}
+
+@keyframes slidein {
+from {background-position: top;background-size:3000px; }
+to {background-position: -100px 0px;background-size:2750px;}
+
+}
+h1{
+  text-align: center;
+  font-size: 80px;
+  color: #ffffff;
+
+  font-family: fantasy;
+}
+p{
+  background: rgba(255, 255, 255, 0.2);
+   color: #ffffff;
+   left: 40;
+   right: 40;
+   text-align: center;
+   margin:0;
+   font-family: Georgia;
+}
+a{
+  background: rgba(255, 255, 255, 0.2);
+  color: #ffffff;
+  left: 40;
+  right: 40;
+  text-align: center;
+  margin:0;
+  font-family: Georgia;
+  margin-top: 0;
+}
+
+nav {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #757373;
+}
+*{
+  margin: 0px;
+  padding: 0px;
+}
